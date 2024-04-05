@@ -87,10 +87,15 @@ h1 {
 /*Expertise Section*/
 .cards {
   background-color: #ffc200;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .col {
-
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 #expertise {
